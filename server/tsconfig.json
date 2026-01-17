@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    /* ============================Cible JavaScript============================ */
+    "target": "ESNext",
+    // Version de JavaScript générée (moderne, adaptée à Node récent)
+
+    /* ============================Modules============================ */
+    "module": "NodeNext",
+    // Format de modules utilisé par Node.js (require / module.exports)
+
+    "moduleResolution": "NodeNext",
+    // Manière dont TypeScript résout les imports (comme Node)
+
+    /* ============================Interop Node / CommonJS============================ */
+    "esModuleInterop": true,
+    // Permet d'importer facilement des modules CommonJS avec `import`
+
+    /* ============================Types============================ */
+    "types": ["node"],
+    // Indique à TypeScript que le projet utilise les types Node
+    // (fs, path, process, etc.)
+
+    /* ============================Vérifications TypeScript============================ */
+    "strict": true,
+    // Active le typage strict (recommandé)
+
+    "forceConsistentCasingInFileNames": true,
+    // Évite les erreurs liées aux majuscules/minuscules dans les imports
+
+    "skipLibCheck": true
+    // Ignore la vérification des fichiers .d.ts des dépendances
+  }
+}
