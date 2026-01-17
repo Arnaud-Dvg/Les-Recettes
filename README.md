@@ -8,7 +8,7 @@ L’objectif du projet est de centraliser mes recettes dans une seule applicatio
 
 ## 🧠 Phase actuelle du projet = Implémentation de la base de données   
 
-**phase de conception**.
+**Phase de conception**.
 
 - Réalisation des **maquettes basses fidélités UI/UX sur Excalidraw**
 <img width="450" height="450" alt="image" src="https://github.com/user-attachments/assets/e2d0271c-a76d-40c0-9839-eb6ffd4bea82" />
