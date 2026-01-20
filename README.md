@@ -8,25 +8,25 @@ L’objectif du projet est de centraliser mes recettes dans une seule applicatio
 
 ## 🧠 Phase actuelle du projet = Implémentation de la base de données   
 
-**phase de conception**.
+**Phase de conception**.
 
 - Réalisation des **maquettes basses fidélités UI/UX sur Excalidraw**
-<img width="450" height="450" alt="image" src="https://github.com/user-attachments/assets/912caaaa-b22c-41ee-ac21-c4a10369c662" />
+<img width="450" height="450" alt="image" src="https://github.com/user-attachments/assets/e2d0271c-a76d-40c0-9839-eb6ffd4bea82" />
+" />
 
 - Réalisation des **maquettes hautes fidélités UI/UX sur Figma**   
-  <img width="450" height="450" alt="image" src="https://github.com/user-attachments/assets/2e287a60-e424-4c05-b67e-49844b2a4dc2" />
-  <img width="450" height="450" alt="image" src="https://github.com/user-attachments/assets/e8eb7a1f-2c2d-497e-8678-75c86bc25e3b" />
+  <img width="450" height="450" alt="image" src="https://github.com/user-attachments/assets/f10d1044-f55e-4dcf-904b-488bf6d9fef3" />
+  <img width="450" height="450" alt="image" src="https://github.com/user-attachments/assets/73d1c61d-d29e-4cd7-9ac0-d37f65847021" />
 
 - Modélisation de la base de données selon la **méthode Merise**
   - MCD (Modèle Conceptuel de Données)
-  <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/5bc9ef51-cb7a-457a-8995-d0026a8c5760" />
+<img width="553" height="243" alt="image" src="https://github.com/user-attachments/assets/149ce6ad-0013-4e61-8e88-4c15d498b728" />
 
   - MLD (Modèle Logique de Données)
-  <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/bea40aea-d20b-446f-95ef-841c76cc8012" />
+<img width="556" height="445" alt="image" src="https://github.com/user-attachments/assets/ca5ed21e-eea9-46ad-b7cb-d76048d757d9" />
 
   - MPD (Modèle Physique de Données)
-  <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/b8541312-e44e-4ac9-b1a3-50b49b651582" />
-
+<img width="1061" height="515" alt="image" src="https://github.com/user-attachments/assets/dcb84a78-40c1-4957-bbea-6c4e35b7258b" />
 
 Cette étape permet de poser des bases solides avant le développement et de garantir une architecture claire et évolutive.
 
