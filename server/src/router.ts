@@ -2,9 +2,8 @@ import express from "express";
 
 const router = express.Router();
 
-// endpoint de test
-router.get("/api/health", (req, res) => {
-  res.json({ ok: true });
-});
+import recetteAction from "./modules/recetteAction";
+router.get("/api/recette", recetteAction.browse);
+router.get("/api/recette_with_ingredient/:id", recetteAction.read)
 
 export default router;

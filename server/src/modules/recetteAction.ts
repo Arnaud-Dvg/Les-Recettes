@@ -13,12 +13,13 @@ const browse: RequestHandler = async (req, res, next) => {
     }
 };
 
+// Le R du Bread - Read - Pour lire une recette via son id, et ses ingrédients
 const read: RequestHandler = async (req, res, next) => {
     try {
         const recetteId = Number(req.params.id);
         const recette = await recetteRepository.read(recetteId);
 
-        if (recette == null) {
+        if (!recette) {
             res.sendStatus(404);
         } else {
             res.json(recette);
@@ -26,4 +27,9 @@ const read: RequestHandler = async (req, res, next) => {
     } catch (err) {
 next(err);
     }
- };
+};
+
+export default {
+    browse,
+    read,
+};
