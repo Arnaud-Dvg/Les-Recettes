@@ -8,10 +8,6 @@ type Recette = {
     description: string;
     recette: string;
     image: string;
-    plat_id: number;
-    ingredient_id: number;
-    quantite: number;
-    unite: string;
 };
 
 type RecetteComplete = {
@@ -34,7 +30,7 @@ class recetteRepository {
     // Le R du CRUD - ReadAll - Pour lire toutes les recettes
     async readAll() {
         const [rows] = await databaseClient.query<Rows>(
-            "SELECT * FROM recette"
+            "SELECT * FROM plat"
         );
         return rows as Recette[];
     }
