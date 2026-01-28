@@ -2,7 +2,7 @@ function Accueil() {
 
     return (
         <>
-            <p>Test</p>
+            <p>Accueil</p>
         </>
     )
 }
