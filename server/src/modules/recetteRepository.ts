@@ -30,7 +30,7 @@ class recetteRepository {
     // Le R du CRUD - ReadAll - Pour lire toutes les recettes
     async readAll() {
         const [rows] = await databaseClient.query<Rows>(
-            "SELECT * FROM plat"
+            "SELECT * FROM plat ORDER BY name ASC"
         );
         return rows as Recette[];
     }

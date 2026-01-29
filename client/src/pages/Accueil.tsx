@@ -1,8 +1,10 @@
+import ListeRecette from "../components/accueil/ListeRecette";
+
 function Accueil() {
 
     return (
         <>
-            <p>Accueil</p>
+            <ListeRecette />
         </>
     )
 }

@@ -146,7 +146,7 @@ Beurrez une plaque allant au four ou recouvrez-la d'une plaque de silicone. À l
 5.
 Pour finir, faites cuire 8 à 10 minutes à 180°C soit thermostat 6. Il faut les sortir dès que les contours commencent à brunir.", "https://ciehzbotnzkdehyfsmum.supabase.co/storage/v1/object/sign/Photo%20Plat/Cookies.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9kNTU1YmZhZi1kOTkzLTRjMDctOTU4My05ZDI1Y2RiZGY2NTAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJQaG90byBQbGF0L0Nvb2tpZXMucG5nIiwiaWF0IjoxNzY4OTE3MDE1LCJleHAiOjE5MjY1OTcwMTV9.4wsiRAppuJf2Tyo9ZKuQHg7zD99uZKHCP_GYzstE_Kg"),
 -- Saumon à la Normande 3 --
-("Saumon à la normande & fondue de poireaux",
+("Saumon à la normande et fondue de poireaux",
 "Succombez à ce délicieux filet de saumon à la normande, sublimé par une sauce crémeuse à la noix de muscade. Cela ne vous rappelle-t-il pas ces repas conviviaux en famille, où les plats simples se transforment en festin ? Laissez-vous emporter par ce plat qui honore la tradition normande.",
 "1.
 Préparer
