@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 type Recette = {
     id: number;
@@ -48,16 +49,22 @@ function ListeRecette() {
                 <div className="flex flex-col items-center gap-10 pt-10">
                     {filteredListe.length > 0 ? (
                         filteredListe.map((recette) => (
-                            <div key={recette.id} className="bg-primary w-full max-w-70 rounded-3xl shadow-xl overflow-hidden">
-                                <h1 className="text-lg font-bold text-center px-4 py-4 leading-tight">
-                                    {recette.name}
-                                </h1>
-                                <img
-                                    className="w-full h-52 object-cover border-t border-black/5"
-                                    src={recette.image}
-                                    alt={recette.name}
-                                />
-                            </div>
+                            <Link
+                                to={`/recette/${recette.id}`}
+                                key={recette.id}
+                                className="w-full max-w-70 flex justify-center"
+                            >
+                                <div className="bg-primary w-full rounded-3xl shadow-xl overflow-hidden">
+                                    <h1 className="text-lg font-bold text-center px-4 py-4 leading-tight">
+                                        {recette.name}
+                                    </h1>
+                                    <img
+                                        className="w-full h-52 object-cover border-t border-black/5"
+                                        src={recette.image}
+                                        alt={recette.name}
+                                    />
+                                </div>
+                            </Link>
                         ))
                     ) : (
                         // Message si aucune recette
