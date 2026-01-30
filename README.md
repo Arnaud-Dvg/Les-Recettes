@@ -6,7 +6,7 @@ L’objectif du projet est de centraliser mes recettes dans une seule applicatio
 
 ---
 
-## 🧠 Phase actuelle du projet = Implémentation de la base de données   
+## 🧠 Phase actuelle du projet = Développement du front ! 
 
 **Phase de conception**.
 
