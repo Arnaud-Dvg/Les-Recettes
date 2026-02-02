@@ -1,4 +1,4 @@
-import { useState, useEffect, use } from "react";
+import { useState, useEffect, } from "react";
 import { useParams } from "react-router-dom";
 import Page404 from "../../pages/Page404";
 
