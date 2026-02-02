@@ -9,6 +9,10 @@ import "../database/checkConnection";
 // Importe l’application Express configurée
 import app from "./app";
 
+app.get('/', (req, res) => {
+    res.status(200).send('Serveur opérationnel');
+});
+
 // Récupère le port d’écoute depuis les variables d’environnement
 const port = process.env.APP_PORT;
 

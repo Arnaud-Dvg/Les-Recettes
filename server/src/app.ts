@@ -7,6 +7,8 @@ import type { ErrorRequestHandler } from "express";
 
 const app = express();
 
+
+
 /* ================================
    Configuration CORS
    ================================ */
