@@ -3,9 +3,9 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #FAE6C9,
-  --color-secondary: #F5EDE1,
-  --color-tertiary: black,
+  --color-primary: #FAE6C9;
+  --color-secondary: #F5EDE1;
+  --color-tertiary: black;
 }
 
 body {
