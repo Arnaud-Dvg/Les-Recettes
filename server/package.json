@@ -1,4 +1,6 @@
 {
+    "name": "votre-nom-de-projet",
+    "version": "1.0.0",
     "engines": {
         "node": "22.x"
     },
@@ -7,6 +9,7 @@
         "dev": "tsx watch --clear-screen=false ./src/main",
         "db:migrate": "tsx ./bin/migrate",
         "db:seed": "tsx ./bin/seed",
+        "build": "echo 'No build step needed'",
         "start": "tsx ./src/main",
         "test": "jest --verbose",
         "lint": "biome check .",
@@ -16,7 +19,8 @@
         "cors": "^2.8.6",
         "dotenv": "^17.2.3",
         "express": "^5.2.1",
-        "mysql2": "^3.16.1"
+        "mysql2": "^3.16.1",
+        "votre-nom-de-projet": "file:"
     },
     "devDependencies": {
         "@biomejs/biome": "2.3.11",
