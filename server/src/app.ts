@@ -16,8 +16,9 @@ const app = express();
 // Autorise les requêtes provenant du client (en développement)
 // L’URL du client est définie dans la variable d’environnement CLIENT_URL
 if (process.env.CLIENT_URL != null) {
-  app.use(cors({ origin: [process.env.CLIENT_URL] }));
-}
+app.use(cors({
+  origin: ['https://ton-projet-frontend.vercel.app', 'http://localhost:5173'] 
+}));}
 
 /* ================================
    Parsing des requêtes HTTP
