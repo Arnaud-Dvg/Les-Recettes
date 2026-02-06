@@ -29,6 +29,10 @@ function PageRecette() {
 
     const affichageRecette = async () => {
         try {
+
+            console.log("DETAIL URL =", `${import.meta.env.VITE_API_URL}/api/recette_with_ingredient/${id}`);
+            console.log("ID =", id);
+
             const res = await fetch(`${import.meta.env.VITE_API_URL}/api/recette_with_ingredient/${id}`);
             // Force le passage en "catch" si le serveur répond 404 ou 500
             if (!res.ok) throw new Error("Recette introuvable");
