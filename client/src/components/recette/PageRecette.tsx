@@ -73,11 +73,12 @@ function PageRecette() {
                 ))}
             </ul>
             <div className="mt-6 flex flex-col gap-6">
-                {recette.recette.split(/(?=\d+-)/).filter(e => e.trim()).map((etape, index) => (
-                    <p key={index} className="text-gray-800 leading-relaxed">
-                        {etape.trim()}
-                    </p>
-                ))}
+                {recette.recette.split(/(?=\d+\*)/)
+                    .filter(e => e.trim()).map((etape, index) => (
+                        <p key={index} className="text-gray-800 leading-relaxed">
+                            {etape.trim()}
+                        </p>
+                    ))}
             </div>
         </div>
     );
