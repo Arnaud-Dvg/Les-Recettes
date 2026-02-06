@@ -42,9 +42,10 @@ class recetteRepository {
     p.id, p.name AS plat_name, p.description, p.recette, p.image,
     i.id AS ingredient_id, i.name AS ingredient_name, ip.quantite, ip.unite
     FROM plat AS p
-    JOIN ingredient_plat AS ip ON ip.plat_id = p.id
-    JOIN ingredient AS i ON i.id = ip.ingredient_id
-    WHERE p.id = ?`,
+    LEFT JOIN ingredient_plat AS ip ON ip.plat_id = p.id
+    LEFT JOIN ingredient AS i ON i.id = ip.ingredient_id
+    WHERE p.id = ?;
+    `,
     [plat_id]
     );
 
