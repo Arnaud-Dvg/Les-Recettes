@@ -1,5 +1,6 @@
 // Charge les variables d’environnement depuis le fichier .env
 import "dotenv/config";
+import "./app.css";
 
 // Vérifie la connexion à la base de données
 // Optionnel : peut être supprimé si la connexion à la BDD
