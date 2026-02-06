@@ -2,7 +2,7 @@
     "name": "votre-nom-de-projet",
     "version": "1.0.0",
     "engines": {
-        "node": "22.x"
+        "node": "20.x"
     },
     "scripts": {
         "check-types": "tsc --noEmit",
