@@ -7,7 +7,6 @@ import Accueil from './pages/Accueil.tsx'
 import Recette from './pages/Recette.tsx'
 import Page404 from './pages/Page404.tsx';
 
-
 const router = createBrowserRouter([
   {
     element: <App />,

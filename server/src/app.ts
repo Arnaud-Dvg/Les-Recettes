@@ -4,8 +4,6 @@ import cors from "cors";
 import fs from "node:fs";
 import path from "node:path";
 import type { ErrorRequestHandler } from "express";
-import "./app.css";
-
 
 const app = express();
 
