@@ -73,13 +73,16 @@ function PageRecette() {
                 ))}
             </ul>
             <div className="mt-6 flex flex-col gap-6">
-                {recette.recette.split(/(?<!\d)(?=\d+\|)/)
-                    .filter(e => e.trim()).map((etape, index) => (
+                {recette.recette
+                    .split(/(?<!\d)(?=\d+\|)/)
+                    .filter(e => e.trim())
+                    .map((etape, index) => (
                         <p key={index} className="text-gray-800 leading-relaxed break-normal whitespace-pre-wrap">
-                            {etape.trim()}
+                            {etape.trim().replace(/^(\d+\|)\s*\n\s*/, '$1 ')}
                         </p>
                     ))}
             </div>
+
         </div>
     );
 }
