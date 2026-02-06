@@ -632,41 +632,41 @@ Quand la baguette est rassie, il suffit de la passer rapidement sous l'eau pour 
 ),
 -- Marbré au chocolat 28 --
 ("Marbré au chocolat", "Voici la recette du marbré au chocolat au Thermomix, pour le plus grand plaisir des papilles sucrées. Un marbré moelleux idéal pour les enfants, à l’heure du goûter mais qui peut se manger à toute heure de la journée !",
-"1*
+"1|
 Préchauffer le four à 170°C.
-2*
+2|
 Mettre le beurre dans le bol et chauffer 4 min 30 sec/80°C/vitesse 3.
-3*
+3|
 Ajouter la crème et le sucre dans le bol. Mélanger 30 sec/vitesse 4.
-4*
+4|
 Ajouter les oeufs, la farine, et la levure dans le bol. Mélanger 30 sec/vitesse 4.
-5*
+5|
 Transvaser le contenue dans un récipient puis réserver.
-6*
+6|
 Mettre le chocolat noir coupés en morceaux dans le bol et mélanger 4 sec/vitesse 7.
-7*
+7|
 Chauffer 5 min/50°C/vitesse 1. Racler ensuite les parois du bol avec la spatule.
-8*
+8|
 Ajouter la moitié de la préparation réservée dans le bol.
-9*
+9|
 Mélanger 45 sec/vitesse 4.
-10*
+10|
 Transvaser le contenue dans un récipient puis réserver.
-11*
+11|
 Mettre l'arôme de vanille et remuer dans le premier récipient.
-12*
+12|
 Beurrer un moule à cake.
-13*
+13-
 Verser 1/3 de la préparation à la vanille dans du moule et égaliser.
-14*
+14|
 Ajouter la moitié de la préparation au chocolat par dessus toujours en essayant d'égaliser.
-15*
+15-
 Ajouter à nouveau 1/3 de la préparation à la vanille.
-16*
+16|
 Verser par dessus l'autre moitié de la préparation au chocolat et complété par le dernier tiers de préparation à la vanille.
-17*
+17|
 Mettre dans le four pendant 50 min à 170°. Vérifier la cuisson avec un couteau qui doit ressortir sec si vous le plantez dedans.
-18*
+18|
 Réserver jusqu'à ce que cela ait refroidi. 
 ", "https://ciehzbotnzkdehyfsmum.supabase.co/storage/v1/object/sign/Photo%20Plat/Marbre.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9kNTU1YmZhZi1kOTkzLTRjMDctOTU4My05ZDI1Y2RiZGY2NTAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJQaG90byBQbGF0L01hcmJyZS5wbmciLCJpYXQiOjE3NzA0MDI3MjEsImV4cCI6MTkyODA4MjcyMX0.5_70jbZeXZVAuX4g8zoaI0XDZcdilRsjwp9k717k2AQ")
 ;
