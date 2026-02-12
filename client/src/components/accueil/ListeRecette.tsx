@@ -11,14 +11,20 @@ function ListeRecette() {
 
     const [search, setSearch] = useState<string>("");
     const [liste, setListe] = useState<Recette[]>([]);
+    const [loading, setLoading] = useState<boolean>(true);
 
-    // Fetch pour affcher toutes les recettes
+    // Fetch pour afficher toutes les recettes
     const listeRecette = async () => {
+        setLoading(true);
         fetch(`${import.meta.env.VITE_API_URL}/api/recette`)
             .then((res) => res.json())
             .then((data) => {
                 setListe(data);
+                setLoading(false);
             })
+            .catch(() => {
+                setLoading(false);
+            });
     }
 
     useEffect(() => {
@@ -47,7 +53,10 @@ function ListeRecette() {
             {/* Liste des recettes sous forme de carte */}
             <section className="grow">
                 <div className="flex flex-col items-center gap-10 pt-10">
-                    {filteredListe.length > 0 ? (
+
+                    {loading ? ( // Affichage pendant chargement
+                        <p>Chargement des recettes...</p>
+                    ) : filteredListe.length > 0 ? (
                         filteredListe.map((recette) => (
                             <Link
                                 to={`/recette/${recette.id}`}
@@ -66,19 +75,27 @@ function ListeRecette() {
                                 </div>
                             </Link>
                         ))
-                    ) : (
-                        // Message si aucune recette
+                    ) : search.trim() !== "" ? ( // Message seulement si recherche active
                         <div>
-                            <p>Mince ! Aucune recette correspond à "<span className="italic">{search}</span>", ou peut-être en Russie ! Ou bien au fin fond du Kazakhstan !</p>
-                            <button onClick={() => setSearch("")} className="pt-8"><p>Voir toutes les recettes 🍳</p></button>
+                            <p>
+                                Mince ! Aucune recette correspond à "
+                                <span className="italic">{search}</span>",
+                                ou peut-être en Russie !
+                                Ou bien au fin fond du Kazakhstan !
+                            </p>
+                            <button onClick={() => setSearch("")} className="pt-8">
+                                <p>Voir toutes les recettes 🍳</p>
+                            </button>
                         </div>
-                    )}
+                    ) : null /* Sinon on n'affiche rien */}
                 </div>
 
                 {/* Compteur */}
-                <div className="text-center text-gray-500 text-sm py-10">
-                    <p>{filteredListe.length} recettes affichées</p>
-                </div>
+                {!loading && ( // Eviter compteur pendant chargement
+                    <div className="text-center text-gray-500 text-sm py-10">
+                        <p>{filteredListe.length} recettes affichées</p>
+                    </div>
+                )}
             </section>
         </div>
     );
