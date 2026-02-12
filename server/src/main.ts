@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
 });
 
 // Récupère le port d’écoute depuis les variables d’environnement
-const port = process.env.APP_PORT;
+const port = process.env.PORT || process.env.APP_PORT || 3310;
 
 // Démarre le serveur et écoute sur le port défini
 app
