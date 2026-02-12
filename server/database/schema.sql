@@ -427,7 +427,7 @@ Répétez jusqu'à épuisement de la pâte.", "https://ciehzbotnzkdehyfsmum.supa
 4| Transvasez dans un moule à cake beurré et fariné puis enfournez 45 min à 200°C.", "https://ciehzbotnzkdehyfsmum.supabase.co/storage/v1/object/sign/Photo%20Plat/CakeOlive.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9kNTU1YmZhZi1kOTkzLTRjMDctOTU4My05ZDI1Y2RiZGY2NTAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJQaG90byBQbGF0L0Nha2VPbGl2ZS5wbmciLCJpYXQiOjE3Njg5MTc1NDcsImV4cCI6MTkyNjU5NzU0N30.8Z2_ApW096QymOHLpBfYXSzRZXJrLBTjf_orCaLTJwE"
 ),
 -- Cake au Chorizo 24--
-("Cake au chorizo",
+("Cake au chorizoooooooooooo",
 "Le cake au chorizo au Thermomix est absolument délicieux. Moelleux et savoureux, il se prépare en quelques secondes, dans le bol de votre Thermomix, avant de cuire et de dorer au four.",
 "1| Préchauffez le four sur th.6 (180°C).
 2| Versez la farine, la fécule, la levure, les œufs, le lait et l’huile dans le bol du Thermomix. Mixez 30 sec, vitesse 4.
