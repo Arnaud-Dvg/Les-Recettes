@@ -4,6 +4,8 @@ const { DB_HOST, DB_PORT, DB_USER, DB_PASSWORD, DB_NAME } = process.env;
 // Création d’un pool de connexions MySQL
 import mysql from "mysql2/promise";
 
+// AJOUT : n'activer SSL que sur TiDB (sinon ça casse MySQL local)
+const isTiDB = process.env.DB_PORT === "4000" || (process.env.DB_HOST ?? "").includes("tidbcloud.com");
 
 const client = mysql.createPool({
   host: DB_HOST,
@@ -11,10 +13,16 @@ const client = mysql.createPool({
   user: DB_USER,
   password: DB_PASSWORD,
   database: DB_NAME,
-  ssl: {
-    minVersion: 'TLSv1.2',
-    rejectUnauthorized: true, // TiDB recommande d'utiliser le certificat CA pour plus de sécurité
-  }
+  
+    // AJOUT : SSL uniquement sur TiDB
+  ...(isTiDB
+    ? {
+        ssl: {
+          minVersion: "TLSv1.2",
+          rejectUnauthorized: true,
+        },
+      }
+    : {}),
 });
 
 // Export du client MySQL

@@ -58,8 +58,8 @@ const clientBuildPath = path.join(__dirname, "../../client/dist");
 if (fs.existsSync(clientBuildPath)) {
   app.use(express.static(clientBuildPath));
 
-  // Redirige toutes les routes non gérées vers l’application front
-  app.get("*", (_, res) => {
+  // Catch-all sans pattern (évite path-to-regexp)
+  app.use((_, res) => {
     res.sendFile("index.html", { root: clientBuildPath });
   });
 }

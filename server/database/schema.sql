@@ -741,6 +741,7 @@ INSERT INTO ingredient_plat (plat_id, ingredient_id, quantite, unite) VALUES
 INSERT INTO ingredient_plat (plat_id, ingredient_id, quantite, unite) VALUES
 (27, (SELECT id FROM ingredient WHERE name='Pain' LIMIT 1), 1, 'pièce');
 
+-- 28 - Marbré chocolat
 INSERT INTO ingredient_plat (plat_id, ingredient_id, quantite, unite) VALUES
 (28, (SELECT id FROM ingredient WHERE name='Beurre' LIMIT 1), 120, 'g'),
 (28, (SELECT id FROM ingredient WHERE name='Crème fraîche liquide entière' LIMIT 1), 120, 'g'),
