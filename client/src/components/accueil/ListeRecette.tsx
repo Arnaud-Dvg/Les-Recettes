@@ -40,7 +40,7 @@ function ListeRecette() {
         <div className="flex flex-col min-h-screen px-4">
 
             {/* Barre de recherche */}
-            <div className="flex items-center mx-auto w-full max-w-sm h-12 rounded-full bg-primary mt-6 px-5 shadow-md">
+            <div className="flex items-center mx-auto w-full max-w-70 h-12 rounded-full bg-primary mt-6 px-5 shadow-md">
                 <input
                     className="bg-transparent outline-none w-full text-black placeholder:text-gray-600"
                     type="search"

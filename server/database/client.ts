@@ -7,9 +7,6 @@ import mysql from "mysql2/promise";
 // AJOUT : n'activer SSL que sur TiDB (sinon ça casse MySQL local)
 const isTiDB = process.env.DB_PORT === "4000" || (process.env.DB_HOST ?? "").includes("tidbcloud.com");
 
-console.log("[APP DB]", DB_HOST, DB_PORT, DB_NAME); 
-// TEST
-
 const client = mysql.createPool({
   host: DB_HOST,
   port: Number.parseInt(DB_PORT as string),
