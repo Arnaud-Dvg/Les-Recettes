@@ -122,12 +122,14 @@ INSERT INTO ingredient (name) VALUES
 ('Légume(s) (cube)'),
 ('Crème fraîche liquide entière'),
 ('Arôme vanille'),
-('Pain');
+('Pain'),
+('Poudre d''amande'),
+('Blanc d''oeuf');
 
 INSERT INTO plat (name, description, recette, image) VALUES
 -- TARTIFLETTE 1 --
 ("Tartiflette Savoyarde", "Un plat savoyard gourmand à base de pommes de terre, lardons, oignons et reblochon fondant, parfait pour un repas réconfortant.", 
-"1| Dans une grande casserole d'eau bouillante salée, cuire les pommes de terre préalablement épluchées. Égoutter et réserver une fois qu'elles sont bien cuites, c'est-à-dire lorsque l'on peut y enfoncer une lame de couteau sans qu'elles ne se cassent pour autant (environ 15 minutes de cuisson).
+"1| Dans une grande casserole déeau bouillante salée, cuire les pommes de terre préalablement épluchées. Égoutter et réserver une fois qu'elles sont bien cuites, c'est-à-dire lorsque l'on peut y enfoncer une lame de couteau sans qu'elles ne se cassent pour autant (environ 15 minutes de cuisson).
 2| Pendant que cuisent les pommes de terre, faire fondre une noix de beurre dans une poêle et faire revenir les oignons détaillés vivement pendant quelques minutes puis à feu doux. Lorsqu'ils sont translucides, verser le vin blanc, et cuire jusqu'à ce que l'alcool soit évaporé et les oignons imbibés. Réserver.
 3| Répartir la moitié des oignons confits dans le fond d'un plat allant au four, ainsi que les lardons revenus à la poêle et épongés de leur excédent de gras. Disposer les pommes de terre découpées en rondelles dessus, puis répartir le reste d'oignons et de lardons.
 4| Choisir un reblochon au lait cru de couleur jaune-orangée. Gratter la croûte au couteau pour la nettoyer, puis couper le fromage en deux. Couper chaque moitié horizontalement et déposer les quatre morceaux sur les oignons, croûte vers le haut. Poivrer légèrement mais ne pas saler.
@@ -221,7 +223,7 @@ Garnissez avec les amandes effilées et le reste des copeaux de grana padano.", 
 ),
 -- Rillettes de Thon 6 --
 ("Rillettes de thon",
-"DESCRIPTION Rillettes",
+"Apportez une touche de fraîcheur à vos apéritifs avec ces rillettes de thon maison, subtilement relevées d'échalote et de ciboulette, pour une texture onctueuse prête en quelques minutes seulement.",
 "1| Installer la lame à 4 couteaux dans le bol du Compact Cook.
 2| Éplucher l'échalote et la mettre dans le bol du Compact Cook.
 3| Ajouter la ciboulette.
@@ -249,7 +251,7 @@ Garnissez avec les amandes effilées et le reste des copeaux de grana padano.", 
 ),
 -- Risotto Champignons et courgettes 8--
 ("Risotto champignons et courgettes",
-"DESCRIPTION risotto",
+"Savourez toute l'onctuosité d'un risotto aux légumes de saison, où la douceur des courgettes et le parfum des champignons se mêlent à la richesse du parmesan pour un résultat crémeux digne d'une table italienne.",
 "1| Installer la lame à 4 couteaux.
 2| Ajouter l'échalote, les champignons de Paris et 1 courgette coupée en morceaux dans le bol du Compact Cook.
 3| Lancer le programme Hacher.
@@ -265,7 +267,7 @@ Garnissez avec les amandes effilées et le reste des copeaux de grana padano.", 
 ),
 -- Purée lisse 9--
 ("Purée Lisse",
-"DESCRIPTION purée",
+"Retrouvez la douceur d'une purée maison à la texture incroyablement lisse et onctueuse, délicatement parfumée à la noix de muscade et préparée sans effort avec votre Compact Cook.",
 "1| Peser vos ingrédients.
 2| Éplucher les pommes de terre et les rincer.
 3| Les découper en morceaux de 1cm environ (important pour une cuisson uniforme et optimale).
@@ -281,7 +283,7 @@ Garnissez avec les amandes effilées et le reste des copeaux de grana padano.", 
 ),
 -- Pâte à pizza express 10--
 ("Pâte à pizza express",
-"DESCRIPTION pizza",
+"Réalisez une pâte à pizza artisanale à la fois souple et croustillante, pétrie à la perfection par votre Compact Cook pour servir de base à toutes vos envies de garnitures ensoleillées.",
 "1| Installer la lame à 4 couteaux dans le bol du Compact Cook.
 2| Ajouter dans le bol la levure et 200g d'eau tiède.
 3| Lancer le programme 23 (PATE A PAIN ET PIZZA).
@@ -294,7 +296,7 @@ Garnissez avec les amandes effilées et le reste des copeaux de grana padano.", 
 ),
 -- Pain de Campagne 11--
 ("Pain de campagne",
-"DESCRIPTION pain campagne",
+"Redécouvrez l'odeur irrésistible du pain chaud sortant du four avec cette miche maison à la croûte généreusement craquante et à la mie moelleuse, pétrie avec soin par votre Compact Cook.",
 "1| Peser les ingrédients.
 2| Positionner la lame à 4 couteaux dans le bol et y ajouter l'eau et la levure émiettée.
 3| Lancer le programme 23 (PATE A PAIN ET PIZZA).
@@ -312,7 +314,7 @@ Garnissez avec les amandes effilées et le reste des copeaux de grana padano.", 
 ),
 -- Pâte à tartiner 12--
 ("Pâte à Tartiner Chocolat Noisettes",
-"DESCRIPTION pâte à tartiner",
+"Oubliez les versions industrielles et succombez à cette pâte à tartiner maison intensément noisette, dont l'onctuosité parfaite et le duo de chocolats fondus raviront les petits comme les grands gourmands.",
 "1| Positionner la lame à 4 couteaux dans le bol du Compact Cook.
 2| Mettre les noisettes dans le bol.
 3| Mixez Vitesse 10 pendant 20 secondes en mode manuel.
@@ -401,7 +403,7 @@ Répétez jusqu'à épuisement de la pâte.", "https://ciehzbotnzkdehyfsmum.supa
 ),
 -- Mousse au Chocolat 22--
 ("Mousse au chocolat",
-"Mousse au chocolat DESCRIPTION",
+"Succombez à la légèreté irrésistible de cette mousse au chocolat aérienne, où l'onctuosité du cacao fondu rencontre la délicatesse de blancs en neige parfaitement montés avec votre Compact Cook.",
 "1| Installer le fouet dans le bol du Compact Cook.
 2| Mettre les blancs d’œufs et une pincée de sel dans le bol.
 3| Conserver les jaunes dans un récipient à part.
@@ -427,7 +429,7 @@ Répétez jusqu'à épuisement de la pâte.", "https://ciehzbotnzkdehyfsmum.supa
 4| Transvasez dans un moule à cake beurré et fariné puis enfournez 45 min à 200°C.", "https://ciehzbotnzkdehyfsmum.supabase.co/storage/v1/object/sign/Photo%20Plat/CakeOlive.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9kNTU1YmZhZi1kOTkzLTRjMDctOTU4My05ZDI1Y2RiZGY2NTAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJQaG90byBQbGF0L0Nha2VPbGl2ZS5wbmciLCJpYXQiOjE3Njg5MTc1NDcsImV4cCI6MTkyNjU5NzU0N30.8Z2_ApW096QymOHLpBfYXSzRZXJrLBTjf_orCaLTJwE"
 ),
 -- Cake au Chorizo 24--
-("Cake au chorizoooooooooooo",
+("Cake au chorizo",
 "Le cake au chorizo au Thermomix est absolument délicieux. Moelleux et savoureux, il se prépare en quelques secondes, dans le bol de votre Thermomix, avant de cuire et de dorer au four.",
 "1| Préchauffez le four sur th.6 (180°C).
 2| Versez la farine, la fécule, la levure, les œufs, le lait et l’huile dans le bol du Thermomix. Mixez 30 sec, vitesse 4.
@@ -452,7 +454,7 @@ Répétez jusqu'à épuisement de la pâte.", "https://ciehzbotnzkdehyfsmum.supa
 ),
 -- Pain 27--
 ("Pain",
-"DESCRIPTION pain",
+"Redonnez toute sa noblesse à votre pain de la veille ou sortez-le du congélateur sans perdre une miette de sa saveur grâce à ces techniques de cuisson à 200°C qui restaurent instantanément le croustillant de la croûte et le moelleux de la mie.",
 "1| Pour obtenir une croûte croustillante, vous pouvez placer le pain congelé dans un four préchauffé à 200°C pendant 5 à 10 minutes. Cette méthode décongèle le pain à l'aide de l'air chaud, un processus appelé convection.
 2| Quand la baguette est rassie, il suffit de la passer rapidement sous l'eau pour l'humecter et de l'enfourner à 200°C pendant 10 minutes. Cette méthode est infaillible pour ramollir le pain et lui redonner son craquant.", "https://ciehzbotnzkdehyfsmum.supabase.co/storage/v1/object/sign/Photo%20Plat/Pain.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9kNTU1YmZhZi1kOTkzLTRjMDctOTU4My05ZDI1Y2RiZGY2NTAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJQaG90byBQbGF0L1BhaW4ucG5nIiwiaWF0IjoxNzY4OTE3NTk4LCJleHAiOjE5MjY1OTc1OTh9.8ccygUKZF0ReS1w-XG1eKmEKxjbG91RL9lqZnHnWIEk"
 ),
@@ -476,7 +478,14 @@ Répétez jusqu'à épuisement de la pâte.", "https://ciehzbotnzkdehyfsmum.supa
 16| Verser par dessus l'autre moitié de la préparation au chocolat et complété par le dernier tiers de préparation à la vanille.
 17| Mettre dans le four pendant 50 min à 170°. Vérifier la cuisson avec un couteau qui doit ressortir sec si vous le plantez dedans.
 18| Réserver jusqu'à ce que cela ait refroidi. 
-", "https://ciehzbotnzkdehyfsmum.supabase.co/storage/v1/object/sign/Photo%20Plat/Marbre.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9kNTU1YmZhZi1kOTkzLTRjMDctOTU4My05ZDI1Y2RiZGY2NTAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJQaG90byBQbGF0L01hcmJyZS5wbmciLCJpYXQiOjE3NzA0MDI3MjEsImV4cCI6MTkyODA4MjcyMX0.5_70jbZeXZVAuX4g8zoaI0XDZcdilRsjwp9k717k2AQ")
+", "https://ciehzbotnzkdehyfsmum.supabase.co/storage/v1/object/sign/Photo%20Plat/Marbre.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9kNTU1YmZhZi1kOTkzLTRjMDctOTU4My05ZDI1Y2RiZGY2NTAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJQaG90byBQbGF0L01hcmJyZS5wbmciLCJpYXQiOjE3NzA0MDI3MjEsImV4cCI6MTkyODA4MjcyMX0.5_70jbZeXZVAuX4g8zoaI0XDZcdilRsjwp9k717k2AQ"),
+-- Gâteau au blanc d'oeuf 29 --
+("Gâteau au blanc d'oeuf", "Cette recette propose de petits gâteaux anti-gaspillage à base de poudre d'amande et de blancs d'œufs, offrant une texture légère et fondante idéale pour accompagner le café ou le goûter.",
+"1| Mélangez les ingrédients secs dans un bol (sucre glace, sucre vanillé, poudre d'amandes).
+2| Versez le blanc d'oeuf avec la préparation sucre/amande et mélangez avec une cuillère en bois.
+3| Disposez des petites boules de cette pâte dans le moule antiadhésif en espaçant bien (cela s'étale à la cuisson).
+4| Cuisson 180° 15 minutes maximum. Laissez reposer avant dégustation.
+", "https://ciehzbotnzkdehyfsmum.supabase.co/storage/v1/object/sign/Photo%20Plat/GateauAuBlancDoeuf.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9kNTU1YmZhZi1kOTkzLTRjMDctOTU4My05ZDI1Y2RiZGY2NTAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJQaG90byBQbGF0L0dhdGVhdUF1QmxhbmNEb2V1Zi5wbmciLCJpYXQiOjE3NzQ1MjE4OTIsImV4cCI6MTkzMjIwMTg5Mn0.nqL4rXQebHyWp_DpL1q-0OnfAtymNnnkNyRSi_UF-kA")
 ;
 
 /* ========================= 2) INGREDIENT_PLAT (plat_id, ingredient_id, quantite, unite)=========================
@@ -751,3 +760,10 @@ INSERT INTO ingredient_plat (plat_id, ingredient_id, quantite, unite) VALUES
 (28, (SELECT id FROM ingredient WHERE name='Levure chimique' LIMIT 1), 1, 'sachet'),
 (28, (SELECT id FROM ingredient WHERE name='Chocolat noir' LIMIT 1), 100, 'g'),
 (28, (SELECT id FROM ingredient WHERE name='Arôme vanille' LIMIT 1), 1, 'cs');
+
+-- 29 - Gâteau au blanc d'oeuf
+INSERT INTO ingredient_plat (plat_id, ingredient_id, quantite, unite) VALUES
+(29, (SELECT id FROM ingredient WHERE name='Poudre d''amande' LIMIT 1), 60, 'g'),
+(29, (SELECT id FROM ingredient WHERE name='Sucre glace' LIMIT 1), 60, 'g'),
+(29, (SELECT id FROM ingredient WHERE name='Blanc d''oeuf' LIMIT 1), 1, 'pièce'),
+(29, (SELECT id FROM ingredient WHERE name='Sucre vanillé' LIMIT 1), 1, 'pièce');
