@@ -53,7 +53,7 @@ function PageRecette() {
     if (!recette) return <Page404 />;
 
     return (
-        <div className="p-6">
+        <div className="p-6 md:max-w-2xl md:mx-auto xl:max-w-4xl xl:mx-auto">
             <h2 className="text-2xl font-bold mb-4 text-center">{recette.name}</h2>
             <p className="black">{recette.description}</p>
             <ul className="mt-5 border-2 rounded-2xl ">
