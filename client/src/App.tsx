@@ -7,7 +7,7 @@ import ScrollToTop from "./components/ScrollToTop";
 function App() {
 
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col bg-secondary">
       <Header />
       <ScrollToTop />
       <main className="flex-1">
