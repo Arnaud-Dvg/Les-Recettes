@@ -52,7 +52,7 @@ function ListeRecette() {
 
             {/* Liste des recettes sous forme de carte */}
             <section className="grow">
-                <div className="flex flex-col items-center gap-10 pt-10">
+                <div className="grid grid-cols-1 xl:grid-cols-3 gap-10 pt-10 justify-items-center">
 
                     {loading ? ( // Affichage pendant chargement
                         <p>Chargement des recettes...</p>
